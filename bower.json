@@ -1,0 +1,17 @@
+{
+  "name": "tow -e-comerce",
+  "homepage": "https://github.com/mariel22yat1/proyectwo",
+  "authors": [
+    "mariel22yat <marielayanet.hernandez@alumno.uttehuacan.edu.mx>"
+  ],
+  "description": "comerce",
+  "main": "mariela",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
