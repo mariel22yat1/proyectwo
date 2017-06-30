@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My second bootstrap project</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!--Barra de arriba -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">My second project bootstrap project</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">  toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+        </div>
+        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+          <li><a href="/">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+           <li><a href="About.html">About Us</a></li>
+          <li><a href="" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
+          <li> <form class="navbar-form" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search...">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button></div>
+            </div>
+          </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--fin-Barra de arriba -->
+        <!--Products-cabezera -->
+    <div class="container">
+      <div class="row">
+      <!--migajas -->
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li class="active">Products</li>
+        </ol>
+      </div>
+    <!--fin-migajas -->
+      <div class="row">
+        <div class="page-header">
+          <h1>About US <small>Who we are</small></h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eligendi nam sit excepturi, quibusdam optio explicabo dolore quos quae praesentium veritatis eaque fugiat placeat officiis consectetur perspiciatis alias, mollitia libero! Voluptates aliquam autem iure ad, in perferendis hic dolores, animi unde nobis fugiat. Consectetur voluptatum et cum facere explicabo eaque, quo reiciendis voluptatibus a corporis ad, tempore culpa velit ex quis laudantium, exercitationem eligendi nemo sapiente similique soluta, minus esse odio blanditiis. Repellat nobis adipisci architecto dolorem non voluptatibus error ea et sapiente similique aperiam facilis omnis voluptas, magni perferendis cum, dolor suscipit doloribus odit ipsa corrupti quas quidem cupiditate.</p>
+        </div>
+        <div class="col-md-4">
+          <p class="well well-large lead text-center">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ex hic modi!
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <h4>The Team</h4>
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail text-center features">
+            <img src="img/18.jpg" alt="">
+            <div class="caption">
+              <h4>mariela</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, sint accusamus aspernatur quae dolores modi earum velit illum ipsam perspiciatis sed voluptatum autem, accusantium cupiditate, quaerat laboriosam iste animi voluptatibus.</p>
+              <ul class="list-unstyled list-inline">
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>|
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail text-center features">
+            <img src="img/18.jpg" alt="">
+            <div class="caption">
+              <h4>karen</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, sint accusamus aspernatur quae dolores modi earum velit illum ipsam perspiciatis sed voluptatum autem, accusantium cupiditate, quaerat laboriosam iste animi voluptatibus.</p>
+              <ul class="list-unstyled list-inline">
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>|
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6"></div>
+      </div>
+    </div>
+    <!--Products-cabezera -->
+
+    <!--body -->
+
+
+
+    <!--fin-body -->
+
+
+
+      <!--footer -->
+      <div class="row">
+      <div class="container">
+        <hr>
+        <p class="lead text-center">
+          Wana get in touch? Email us at <a href="#">mariela12@gmail.com</a>
+        </p>
+        <hr>
+        <ul class="list-unstyled text-center list-inline features">
+          <li>Follow US:</li>
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <p class="text-center text-muted">
+          &copy; Copyrigth 2017. Product name. All rights reserved
+        </p>
+      </div>
+    </div>
+
+      <!--fin-footer -->
+
+    <!-- modal contact form -->
+    <div class="modal fade" id="modal-contact-form" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h3>Contact us</h3>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="contact-name" class="form-control-label">Name:</label>
+                <input type="text" class="form-control" id="contact-name" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="form-control-label">Email:</label>
+                <input type="email" class="form-control" id="contact-email" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-message" class="form-control-label">Message:</label>
+                <textarea name="" id="contact-message" cols="30" rows="5" class="form-control" required></textarea>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <input type="submit" class="btn btn-primary" value="Send Message">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer"></div>
+          <button class="btn btn-danger" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+    $('document').ready(function(){
+      $('.carousel').carousel({
+        interval : 5000
+      })
+    })
+    </script>
+  </body>
+  </html>

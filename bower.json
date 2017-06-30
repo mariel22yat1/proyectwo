@@ -1,11 +1,12 @@
 {
-  "name": "tow -e-comerce",
-  "homepage": "https://github.com/mariel22yat1/proyectwo",
+  "name": "ProjectTwo",
+  "homepage": "https://github.com/jssyesenia/ProjectTwo",
   "authors": [
-    "mariel22yat <marielayanet.hernandez@alumno.uttehuacan.edu.mx>"
+    "jssyesenia <yess_gr@homail.com>"
   ],
-  "description": "comerce",
-  "main": "mariela",
+  "description": "my second bootstrap project",
+  "main": "index.html",
+  "moduleType": [],
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -13,5 +14,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
 }
